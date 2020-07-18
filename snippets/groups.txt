@@ -1,0 +1,34 @@
+Proxy`select`[]Tn`[]T0`[]Carair`[]Suda
+T0`select`[]T1`[]T2`[]T3`[]T4
+Tn`fallback`[]T0`[]T2`[]T3`[]T4`http://www.gstatic.com/generate_204`300
+T1`select`!!GROUPID=0!!HK`!!GROUPID=0!!^(?!.*HK).*$
+T2`select`!!GROUPID=1
+T3`select`!!GROUPID=2!!US.*A
+T4`select`!!GROUPID=2!!HK`!!GROUPID=2!!^(?!.*(HK|US.*A)).*$
+Carair`select`!!GROUPID=3
+Suda`select`!!GROUPID=4
+
+Telegram`select`[]Proxy`(新|SG)
+MSServices`select`[]DIRECT`[]Proxy
+GlobalMedia`select`[]Proxy`[]DIRECT
+CNMedia`select`[]DIRECT`[]Proxy
+Apple`select`[]DIRECT`[]Proxy
+ABP`select`[]REJECT`[]DIRECT
+Final`select`[]Proxy`[]DIRECT
+
+
+
+
+;🔰 节点选择`select`[]♻️ 自动选择`[]🎯 全球直连`.*
+;♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
+;🎥 NETFLIX`select`[]🔰 节点选择`[]♻️ 自动选择`[]🎯 全球直连`.*
+;⛔️ 广告拦截`select`[]🛑 全球拦截`[]🎯 全球直连`[]🔰 节点选择
+;🚫 运营劫持`select`[]🛑 全球拦截`[]🎯 全球直连`[]🔰 节点选择
+;🌍 国外媒体`select`[]🔰 节点选择`[]♻️ 自动选择`[]🎯 全球直连`.*
+;🌏 国内媒体`select`[]🎯 全球直连`(HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|hk|港|tw)`[]🔰 节点选择
+;Ⓜ️ 微软服务`select`[]🎯 全球直连`[]🔰 节点选择`.*
+;📲 电报信息`select`[]🔰 节点选择`[]🎯 全球直连`.*
+;🍎 苹果服务`select`[]🔰 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
+;🎯 全球直连`select`[]DIRECT
+;🛑 全球拦截`select`[]REJECT`[]DIRECT
+;🐟 漏网之鱼`select`[]🔰 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
