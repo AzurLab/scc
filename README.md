@@ -1,5 +1,8 @@
 # subpref
 
+## Use
+
+&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FDashboard2%2Fsubpref%40master%2Fcustom.ini
 
 ## Thanks
 - [lhie1/Rules](https://github.com/lhie1/Rules)
