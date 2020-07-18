@@ -1,7 +1,8 @@
 Proxy`select`[]Tn`[]T0`[]Carair`[]Suda
 T0`select`[]T1`[]T2`[]T3`[]T4
 Tn`fallback`[]T0`[]T2`[]T3`[]T4`http://www.gstatic.com/generate_204`300
-T1`select`!!GROUPID=0!!HK`!!GROUPID=0!!^(?!.*HK).*$
+T1`select`!!GROUPID=0
+;!!HK`!!GROUPID=0!!^(?!.*HK).*$
 T2`select`!!GROUPID=1
 T3`select`!!GROUPID=2!!US.*A
 T4`select`!!GROUPID=2!!HK`!!GROUPID=2!!^(?!.*(HK|US.*A)).*$
@@ -9,11 +10,11 @@ Carair`select`!!GROUPID=3
 Suda`select`!!GROUPID=4
 
 Telegram`select`[]Proxy`(新|SG)
-MSServices`select`[]DIRECT`[]Proxy
+Microsoft`select`[]DIRECT`[]Proxy
 GlobalMedia`select`[]Proxy`[]DIRECT
 CNMedia`select`[]DIRECT`[]Proxy
-Apple`select`[]DIRECT`[]Proxy
-ABP`select`[]REJECT`[]DIRECT
+;Apple`select`[]DIRECT`[]Proxy
+;ABP`select`[]REJECT`[]DIRECT
 Final`select`[]Proxy`[]DIRECT
 
 
