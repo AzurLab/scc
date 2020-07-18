@@ -1,5 +1,5 @@
-;DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/proxy.list
-;Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/proxy.list
+DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/direct.list
+Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/proxy.list
 
 DIRECT,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
 DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Unbreak.list
