@@ -7,7 +7,7 @@ allow-lan: {{ global.clash.allow_lan }}
 mode: Rule
 log-level: {{ global.clash.log_level }}
 external-controller: :9090
-{% if request.clash.dns == "1" %}
+{% if request.dns == "1" %}
 dns:
   enabled: true
   ipv6: false
