@@ -1,0 +1,25 @@
+;DIRECT,snippets/Direct.list
+;Proxy,snippets/Proxy.list
+
+DIRECT,https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/LocalAreaNetwork.list
+Telegram,https://github.com/ConnersHua/Profiles/raw/master/Surge/Ruleset/Telegram.list
+MSServices,rules/MSServices.list
+Proxy,https://github.com/ConnersHua/Profiles/raw/master/Surge/Ruleset/Google.list
+DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
+;ABP,rules/NobyDa/Surge/AdRule.list
+;ABP,rules/ConnersHua/Surge/Ruleset/Hijacking.list
+;NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
+GlobalMedia,rules/ConnersHua/Surge/Ruleset/GlobalMedia.list
+CNMedia,rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list
+CNMedia,rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list
+CNMedia,rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list
+CNMedia,rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list
+CNMedia,rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list
+CNMedia,rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list
+
+Proxy,rules/ConnersHua/Surge/Ruleset/Global.list
+Apple,rules/ConnersHua/Surge/Ruleset/Apple.list
+DIRECT,rules/ConnersHua/Surge/Ruleset/China.list
+DIRECT,rules/NobyDa/Surge/Download.list
+DIRECT,[]GEOIP,CN
+Final,[]MATCH
