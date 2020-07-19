@@ -6,7 +6,7 @@ DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Unbr
 
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Telegram.list
 DIRECT,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
-Proxy,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Google.list
+;Google,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Google.list
 Microsoft,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
 ;Apple,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Apple.list
 
