@@ -6,12 +6,12 @@ redir-port: {{ global.clash.redir_port }}
 allow-lan: {{ global.clash.allow_lan }}
 mode: Rule
 log-level: {{ global.clash.log_level }}
-external-controller: :9090
+external-controller: 0.0.0.0:9090
 {% if request.clash.dns == "1" %}
 dns:
   enabled: true
   ipv6: false
-  listen: 1053
+  listen: 0.0.0.0:1053
   enhanced-mode: fake-ip #redir-host
   fake-ip-filter:
     - 'stun.*.*'
