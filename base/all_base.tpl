@@ -12,7 +12,23 @@ dns:
   enabled: true
   ipv6: false
   listen: 0.0.0.0:1053
-  enhanced-mode: fake-ip #redir-host
+  enhanced-mode: fake-ip # redir-host
+  fake-ip-filter:
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+    - 'stun.*.*.*.*'
+  nameserver:
+    - 223.5.5.5:53
+    - 119.29.29.29:53
+    - 1.1.1.1:53
+    - 1.0.0.1:53
+{% endif %}
+{% if request.clash.dns == "2" %}
+dns:
+  enabled: true
+  ipv6: false
+  listen: 0.0.0.0:1053
+  enhanced-mode: redir-host # fake-ip
   fake-ip-filter:
     - 'stun.*.*'
     - 'stun.*.*.*'
