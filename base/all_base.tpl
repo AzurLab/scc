@@ -13,6 +13,10 @@ dns:
   ipv6: false
   listen: 1053
   enhanced-mode: fake-ip #redir-host
+  fake-ip-filter:
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+    - 'stun.*.*.*.*'
   nameserver:
     - 223.5.5.5:53
     - 119.29.29.29:53
