@@ -28,6 +28,6 @@ CNMedia,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/HKM
 Proxy,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Global.list
 
 DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/China.list
-DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/Script@master/Surge/Download.list
+DIRECT,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
 DIRECT,[]GEOIP,CN
 Final,[]MATCH
