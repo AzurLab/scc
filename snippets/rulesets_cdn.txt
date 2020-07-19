@@ -4,7 +4,7 @@ Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/proxy.list
 DIRECT,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
 DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Unbreak.list
 
-Telegram,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Telegram.list
+Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Telegram.list
 DIRECT,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
 Proxy,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Google.list
 Microsoft,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
