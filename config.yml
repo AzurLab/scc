@@ -1,5 +1,5 @@
 custom:
-  default_url: {import: snippets/url.txt}
+#useless  default_url: {import: snippets/url.txt}
 
   enable_rule_generator: true
   overwrite_original_rules: true
