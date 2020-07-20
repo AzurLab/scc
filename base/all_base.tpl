@@ -4,7 +4,11 @@ port: {{ global.clash.http_port }}
 socks-port: {{ global.clash.socks_port }}
 redir-port: {{ global.clash.redir_port }}
 allow-lan: {{ global.clash.allow_lan }}
+{% if local.clash.new_field_name == "true" %}
+mode: rule
+{% else %}
 mode: Rule
+{% endif %}
 log-level: {{ global.clash.log_level }}
 external-controller: 0.0.0.0:9090
 {% if request.clash.dns == "1" %}
@@ -22,6 +26,13 @@ dns:
     - 119.29.29.29:53
     - 1.1.1.1:53
     - 1.0.0.1:53
+  # fallback:
+    # - https://162.159.36.1/dns-query
+    # - https://162.159.46.1/dns-query
+    # - https://1.1.1.1/dns-query
+    # - https://1.0.0.1/dns-query
+    # - https://139.224.112.177/dns-query
+    # - https://162.14.13.12/dns-query
 {% endif %}
 {% if request.clash.dns == "2" %}
 dns:
