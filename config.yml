@@ -27,10 +27,10 @@ custom:
 
 #  include_remarks: []
 #  exclude_remarks: []
-#  template_args:
-#  - {key: clash.http_port, value: 7890}
-#  - {key: clash.socks_port, value: 7891}
-#  - {key: clash.mixed_port, value: 7891}
-#  - {key: clash.redir_port, value: 7892}
-#  - {key: clash.allow_lan, value: true}
-#  - {key: clash.log_level, value: info}
+  template_args:
+  - {key: clash.http_port, value: 7890}
+  - {key: clash.socks_port, value: 7891}
+  - {key: clash.mixed_port, value: 7891}
+  - {key: clash.redir_port, value: 7892}
+  - {key: clash.allow_lan, value: true}
+  - {key: clash.log_level, value: info}
