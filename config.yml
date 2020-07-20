@@ -1,5 +1,5 @@
 custom:
-#useless  default_url: {import: snippets/url.txt}
+  default_url: {import: snippets/url.txt}
 
   enable_rule_generator: true
   overwrite_original_rules: true
@@ -10,7 +10,7 @@ custom:
   rulesets:
   - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/rulesets_cdn.txt}
 
-#  clash_rule_base: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/base/all_base.tpl
+  clash_rule_base: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/base/all_base.tpl
 #  surge_rule_base: base/surge.conf
 #  surfboard_rule_base: base/surfboard.conf
 #  mellow_rule_base: base/mellow.conf
