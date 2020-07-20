@@ -2,7 +2,7 @@
 
 port: {{ local.clash.http_port }}
 socks-port: {{ local.clash.socks_port }}
-redir-port: {{ local.clash.redir_port }}
+# redir-port: {{ local.clash.redir_port }}
 allow-lan: {{ local.clash.allow_lan }}
 {% if local.clash.new_field_name == "true" %}
 mode: rule
