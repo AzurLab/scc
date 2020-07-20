@@ -2,6 +2,7 @@
 
 port: {{ global.clash.http_port }}
 socks-port: {{ global.clash.socks_port }}
+# redir-port: 7892
 allow-lan: {{ global.clash.allow_lan }}
 {% if local.clash.new_field_name == "true" %}
 mode: rule
