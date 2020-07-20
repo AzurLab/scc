@@ -1,6 +1,6 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
-port: {{ global.clash.http_port }}
+port: {{ local.clash.http_port }}
 socks-port: {{ global.clash.socks_port }}
 redir-port: {{ local.clash.redir_port }}
 allow-lan: {{ global.clash.allow_lan }}
