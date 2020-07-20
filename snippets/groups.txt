@@ -12,7 +12,7 @@ Microsoft`select`[]DIRECT`[]Proxy
 GlobalMedia`select`[]Proxy`[]DIRECT
 CNMedia`select`[]DIRECT`[]Proxy
 ;Apple`select`[]DIRECT`[]Proxy
-;ABP`select`[]REJECT`[]DIRECT
+ABP`select`[]REJECT`[]DIRECT
 Final`select`[]Proxy`[]DIRECT
 
 
