@@ -1,9 +1,9 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
-port: {{ local.clash.http_port }}
-socks-port: {{ local.clash.socks_port }}
-# redir-port: 7892
-allow-lan: {{ local.clash.allow_lan }}
+port: {{ global.clash.http_port }}
+socks-port: {{ global.clash.socks_port }}
+redir-port: {{ global.clash.redir_port }}
+allow-lan: {{ global.clash.allow_lan }}
 {% if local.clash.new_field_name == "true" %}
 mode: rule
 {% else %}
