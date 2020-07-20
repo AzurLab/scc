@@ -4,6 +4,8 @@ config and some other files for subconverter
 ## Use
     &config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FDashboard2%2Fsubpref%40master%2Fconfig.ini
 
+    &config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FDashboard2%2Fsubpref%40master%2Fconfig.yml
+
     ruleset=!!import:https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/rulesets_cdn.txt
 
 
