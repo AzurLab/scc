@@ -4,7 +4,7 @@ custom:
   enable_rule_generator: false
   overwrite_original_rules: false
 
-  proxy_groups:
+  custom_proxy_group:
   - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/groups.txt}
 
   rulesets:
@@ -22,12 +22,10 @@ custom:
 
   add_emoji: true
   remove_old_emoji: true
-  emojis:
+  rules:
   - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/emoji.txt}
 
-#  include_remarks: []
-#  exclude_remarks: []
-  template_args:
+  globals:
   - {key: clash.http_port, value: 7890}
   - {key: clash.socks_port, value: 7891}
   - {key: clash.mixed_port, value: 7891}
