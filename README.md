@@ -12,7 +12,7 @@ config and some other files for subconverter
 
 ## Notion
 
-Jsdelivr cdn could take up to 24 hours to refresh the cache file, while github raw will be updated in real time
+[Jsdelivr cdn](https://www.jsdelivr.com/?docs=gh) could take up to 24 hours to refresh the cache file, while github raw will be updated in real time
 
 ## Thanks
 - [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
