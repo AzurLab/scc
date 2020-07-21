@@ -9,12 +9,16 @@ Standby`select`!!GROUPID=3-
 
 Telegram`select`[]Proxy`(新|SG)
 Microsoft`select`[]DIRECT`[]Proxy
+;Google`select`[]Proxy`[]DIRECT
+;Apple`select`[]DIRECT`[]Proxy
+
+
 GlobalMedia`select`[]Proxy`[]DIRECT
 CNMedia`select`[]DIRECT`[]Proxy
-;Apple`select`[]DIRECT`[]Proxy
-ABP`select`[]REJECT`[]DIRECT
-Final`select`[]Proxy`[]DIRECT
 
+
+Final`select`[]Proxy`[]DIRECT
+ABP`select`[]REJECT`[]DIRECT
 
 
 
