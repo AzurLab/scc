@@ -1,6 +1,6 @@
 custom:
-  default_url: {import: snippets/url.txt}
-  proxy_subscription=SYSTEM
+#  default_url: {import: snippets/url.txt}
+#  proxy_subscription=SYSTEM
 
 
   enable_rule_generator: true
