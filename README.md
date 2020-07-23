@@ -16,7 +16,9 @@ config and some other files for subconverter
 
 [Jsdelivr cdn](https://www.jsdelivr.com/?docs=gh) could take up to 24 hours to refresh the cache file, while github raw will be updated in real time
 
-**This repository is for reference only** It is recommended to build by yourself instead of using it directly, because the configuration may not be suitable for everyone
+**This repository is for reference only**
+
+It is recommended to build by yourself instead of using it directly, because the configuration may not be suitable for everyone
 
 
 ## Thanks
