@@ -10,6 +10,8 @@ config and some other files for subconverter
 
 `ruleset=!!import:https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/rulesets_cdn.txt`
 
+`https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/config.yml`
+
 ## Notion
 
 [Jsdelivr cdn](https://www.jsdelivr.com/?docs=gh) could take up to 24 hours to refresh the cache file, while github raw will be updated in real time
