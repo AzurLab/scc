@@ -11,7 +11,8 @@ common:
   filter_script: ""
   default_external_config: "" # config/example_external_config.yml
   base_path: base
-  clash_rule_base: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/base/all_base.tpl
+  # clash_rule_base: https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/base/all_base.tpl
+  clash_rule_base: base/all_base.tpl
   surge_rule_base: base/all_base.tpl
   surfboard_rule_base: base/all_base.tpl
   mellow_rule_base: base/all_base.tpl
@@ -51,7 +52,7 @@ node_pref:
 #  - {match: "\\(?((x|X)?(\\d+)(\\.?\\d+)?)((\\s?倍率?)|(x|X))\\)?", replace: "$1x"}
 #  - {script: "function rename(node){}"}
 #  - {script: "path:/path/to/script.js"}
-  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/rename_node.txt}
+  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/snippets/rename_node.txt}
 
 managed_config:
   write_managed_config: true
@@ -70,12 +71,12 @@ emojis:
 #  - {match: "(流量|时间|应急)", emoji: "🏳️‍🌈"}
 #  - {script: "function getEmoji(node){}"}
 #  - {script: "path:/path/to/script.js"}
-  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/emoji.txt}
+  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/snippets/emoji.txt}
 
 rulesets:
   enabled: true
   overwrite_original_rules: false
-  update_ruleset_on_request: false
+  update_ruleset_on_request: true
   rulesets:
 #  - {rule: "GEOIP,CN", group: "DIRECT"}
 #  - {ruleset: "rules/LocalAreaNetwork.list", group: "DIRECT"}
@@ -84,7 +85,7 @@ rulesets:
 #  - {ruleset: "clash-domain:https://ruleset.dev/clash_domestic_services_domains", group: "Domestic Services", interval: 86400}
 #  - {ruleset: "clash-ipcidr:https://ruleset.dev/clash_domestic_services_ips", group: "Domestic Services", interval: 86400}
 #  - {ruleset: "clash-classic:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml", group: "DIRECT", interval: 86400}
-  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/rulesets_cdn.txt}
+  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/snippets/rulesets_cdn.txt}
 
 proxy_groups:
   custom_proxy_group:
@@ -94,7 +95,7 @@ proxy_groups:
 #  - {name: v2ray, type: select, rule: ["!!GROUP=V2RayProvider"]}
 #  - {import: snippets/groups_forcerule.txt}
 #  - {name: ssid group, type: ssid, rule: ["default_group", "celluar=group0,ssid1=group1,ssid2=group2"]}
-  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/snippets/groups.txt}
+  - {import: https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/snippets/groups.txt}
 
 template:
   template_path: "templates"
