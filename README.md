@@ -27,6 +27,8 @@ It is recommended to build by yourself instead of using it directly, because the
 
 ## Thanks
 
+- [tindy2013/subconverter](https://github.com/tindy2013/subconverter)
+
 - [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
 - [ConnersHua/Profiles](https://github.com/ConnersHua/Profiles)
@@ -37,4 +39,7 @@ It is recommended to build by yourself instead of using it directly, because the
 
 - [neoFelhz/neohosts](https://github.com/neoFelhz/neohosts)
 
-- [tindy2013/subconverter](https://github.com/tindy2013/subconverter)
+- [jdlingyu/ad-wars](https://github.com/jdlingyu/ad-wars)
+
+- [otobtc/ADhosts](https://github.com/otobtc/ADhosts/blob/master/README.md)
+
