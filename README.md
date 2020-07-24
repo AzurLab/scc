@@ -33,4 +33,6 @@ It is recommended to build by yourself instead of using it directly, because the
 
 - [NobyDa/Script](https://github.com/NobyDa/Script)
 
+- [neoFelhz/neohosts](https://github.com/neoFelhz/neohosts)
+
 - [tindy2013/subconverter](https://github.com/tindy2013/subconverter)
