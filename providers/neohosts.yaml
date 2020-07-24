@@ -11,8 +11,8 @@
 #*********************************************************
 
 # > neohosts
-payload:
 
+payload:
   - DOMAIN-SUFFIX,001.0x1f4b0.com
   - DOMAIN-SUFFIX,002.0x1f4b0.com
   - DOMAIN-SUFFIX,003.0x1f4b0.com
@@ -4819,7 +4819,7 @@ payload:
   - DOMAIN-SUFFIX,1.21shebao.com
   - DOMAIN-SUFFIX,123.sogou.com
   - DOMAIN-SUFFIX,1251.adsina.allyes.com
-127.0.0.1 service.ad.adesk.com
+  - DOMAIN-SUFFIX,service.ad.adesk.com
   - DOMAIN-SUFFIX,1276.adsina.allyes.com
   - DOMAIN-SUFFIX,144.dragonparking.com
   - DOMAIN-SUFFIX,154.adsina.allyes.com
