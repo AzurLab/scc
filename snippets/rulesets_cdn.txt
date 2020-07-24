@@ -18,8 +18,8 @@ ABP,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/neohosts.list
 
 ;NETFLIX,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Media/Netflix.list
 GlobalMedia,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/GlobalMedia.list
-;HMT Unlock,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/HMT_Unlock.list
-HMT Unlock,https://raw.githubusercontent.com/Dashboard2/subpref/master/rules/HMT_Unlock.list
+HMT Unlock,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/HMT_Unlock.list
+;HMT Unlock,https://raw.githubusercontent.com/Dashboard2/subpref/master/rules/HMT_Unlock.list
 
 ;HMT Unlock,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
 ;HMT Unlock,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
