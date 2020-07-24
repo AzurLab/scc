@@ -1,4 +1,4 @@
-# subpref
+# subconverter config
 
 Config and some other files for subconverter and clash
 
