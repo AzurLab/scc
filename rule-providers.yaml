@@ -1,0 +1,11 @@
+# Premium only
+rule-providers:
+  neohosts:
+    behavior: "classical" # domain, ipcidr or classical (premium core only)
+    type: http # or file
+    url: "https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/providers/neohosts.yaml"
+    interval: 3600
+    path: ./neohosts.yaml
+  
+rules:
+  - RULE-SET,neohosts,ABP
