@@ -4,8 +4,23 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (premium core only)
     type: http # or file
     url: "https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/providers/neohosts.yaml"
-    interval: 3600
+    # url: "https://raw.githubusercontent.com/Dashboard2/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+    interval: 86400
     path: ./neohosts.yaml
-  
+  NobyDa_AdRule:
+    behavior: "classical" # domain, ipcidr or classical (premium core only)
+    type: http # or file
+    url: "https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/providers/NobyDa_AdRule.yaml"
+    interval: 86400
+    path: ./NobyDa_AdRule.yaml
+  Telegram:
+    behavior: "classical" # domain, ipcidr or classical (premium core only)
+    type: http # or file
+    url: "https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/providers/Telegram.yaml"
+    interval: 86400
+    path: ./Telegram.yaml
+
 rules:
-  - RULE-SET,neohosts,ABP
+ - RULE-SET,neohosts,ABP
+ - RULE-SET,NobyDa_AdRule:,ABP
+ - RULE-SET,Telegram,Telegram
