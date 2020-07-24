@@ -6,8 +6,10 @@
 #pkg=white.ad.web.com;浏览器播放视频提示误伤（不√下两条）
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
 DOMAIN-SUFFIX,livew.l.qq.com
-DOMAIN-SUFFIX,is.snssdk.com #(极个别卡启动不√这条)
-DOMAIN-SUFFIX,gw.365you.com #(游戏广告但不能领奖)
+DOMAIN-SUFFIX,is.snssdk.com 
+#(极个别卡启动不√这条)
+DOMAIN-SUFFIX,gw.365you.com 
+#(游戏广告但不能领奖)
 
 #pkg=ad.xiaomi.com;（小米视频）MIUI
 DOMAIN-SUFFIX,nav.browser.miui.com
