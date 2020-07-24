@@ -6,7 +6,7 @@ DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Unbr
 
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Telegram.list
 DIRECT,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
-Microsoft,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Microsoft.list
 ;Google,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Google.list
 ;Apple,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Apple.list
 
@@ -16,13 +16,13 @@ ABP,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Adverti
 
 ;NETFLIX,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Media/Netflix.list
 GlobalMedia,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/GlobalMedia.list
-CNMedia,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/HKMTMedia.list
-;CNMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
-;CNMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
-;CNMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Letv.list
-;CNMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/MOO.list
-;CNMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
-;CNMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
+HMTMedia,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/HMTMedia.list
+;HMTMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
+;HMTMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
+;HMTMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Letv.list
+;HMTMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/MOO.list
+;HMTMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
+;HMTMedia,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
 
 Proxy,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Global.list
 
