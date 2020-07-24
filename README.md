@@ -1,6 +1,6 @@
 # subpref
 
-Config and some other files for subconverter
+Config and some other files for subconverter and clash
 
 ## Use
 
