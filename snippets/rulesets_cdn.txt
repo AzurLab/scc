@@ -5,7 +5,7 @@ DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Local.list
 DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Unbreak.list
 
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Telegram.list
-;DIRECT,https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/GoogleCN.list
 Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Microsoft.list
 ;Google,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Google.list
 ;Apple,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Apple.listABP,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/neohosts.list
