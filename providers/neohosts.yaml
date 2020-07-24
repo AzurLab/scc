@@ -9,8 +9,10 @@
 #url=https://github.com/neofelhz/neohosts
 #version=20200312022058
 #*********************************************************
+
 # > neohosts
 payload:
+
   - DOMAIN-SUFFIX,001.0x1f4b0.com
   - DOMAIN-SUFFIX,002.0x1f4b0.com
   - DOMAIN-SUFFIX,003.0x1f4b0.com
@@ -9584,3 +9586,4 @@ payload:
   - DOMAIN-SUFFIX,zz.bdstatic.com
   - DOMAIN-SUFFIX,zzimg.51.la
   - DOMAIN-SUFFIX,zzy1.quyaoya.com
+  
