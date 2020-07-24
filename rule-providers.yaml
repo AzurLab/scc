@@ -4,7 +4,7 @@ rule-providers:
     behavior: "classical" # domain, ipcidr or classical (premium core only)
     type: http # or file
     url: "https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/providers/neohosts.yaml"
-    # url: "https://raw.githubusercontent.com/Dashboard2/ACL4SSR/master/Clash/Providers/BanAD.yaml"
+    # url: "https://raw.githubusercontent.com/Dashboard2/subpref/master/providers/neohosts.yaml"
     interval: 86400
     path: ./neohosts.yaml
   NobyDa_AdRule:
@@ -22,5 +22,5 @@ rule-providers:
 
 rules:
  - RULE-SET,neohosts,ABP
- - RULE-SET,NobyDa_AdRule:,ABP
+ - RULE-SET,NobyDa_AdRule,ABP
  - RULE-SET,Telegram,Telegram
