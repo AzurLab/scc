@@ -11,6 +11,7 @@ Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/Microsoft.
 ;Apple,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Apple.listABP,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/neohosts.list
 
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/neohosts.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/subpref@master/rules/ad-wars.list
 ;ABP,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/AdRule.list
 ;ABP,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Hijacking.list
 ;ABP,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Advertising.list
