@@ -7,8 +7,10 @@ payload:
 #pkg=white.ad.web.com;浏览器播放视频提示误伤（不√下两条）
   - DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
   - DOMAIN-SUFFIX,livew.l.qq.com
+
 #(极个别卡启动不√这条)
   - DOMAIN-SUFFIX,is.snssdk.com
+
 #(游戏广告但不能领奖)
   - DOMAIN-SUFFIX,gw.365you.com
 
