@@ -4,15 +4,21 @@ Config and some other files for subconverter and clash
 
 ## Use
 
+> https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/config.ini
+
 `&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FDashboard2%2Fscc%40master%2Fconfig.ini`
+
+> https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/config.yaml
 
 `&config=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FDashboard2%2Fscc%40master%2Fconfig.yaml`
 
+> https://raw.githubusercontent.com/Dashboard2/scc/master/test.yaml
+
 `&config=https%3A%2F%2Fraw.githubusercontent.com%2FDashboard2%2Fscc%2Fmaster%2Ftest.yaml`
 
-`ruleset=!!import:https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/snippets/rulesets_cdn.txt`
 
-`https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/config.yaml`
+
+`ruleset=!!import:https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/snippets/rulesets_cdn.txt`
 
 `default_url=!!import:snippets/url.txt`
 
