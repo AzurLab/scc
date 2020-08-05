@@ -16,7 +16,7 @@ Config and some other files for subconverter and clash
 
 `default_url=!!import:snippets/url.txt`
 
-## Notion
+## Notes
 
 [Jsdelivr cdn](https://www.jsdelivr.com/?docs=gh) could take up to 24 hours to refresh the cache file, while github raw will be updated in real time. 
 
