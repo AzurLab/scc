@@ -43,3 +43,4 @@ It is recommended to build by yourself instead of using it directly, because the
 
 - [otobtc/ADhosts](https://github.com/otobtc/ADhosts/blob/master/README.md)
 
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD)
