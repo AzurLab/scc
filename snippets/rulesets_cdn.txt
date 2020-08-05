@@ -18,6 +18,11 @@ Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
 
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/anti-ad.net1.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/anti-ad.net2.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/anti-ad.net3.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/anti-ad.net4.list
+
 ;ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
 ;ABP,https://anti-ad.net/surge.txt
 ;ABP,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/AdRule.list
