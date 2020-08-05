@@ -20,7 +20,7 @@
 !!GROUPID=2!!Advanced@A
 !!GROUPID=2!!Basic@B
 !!GROUPID=2!!(A|B)\|([a-zA-Z]{2})([0-9]{2})\|.*@$2$3-$1
-!!GROUPID=2!!(A|B)\|([a-zA-Z]{2})([0-9])\|.*@$2WDNMD$3-$1
+!!GROUPID=2!!(A|B)\|([a-zA-Z]{2})([0-9])\|.*@$2(?:0)$3-$1
 !!GROUPID=2!!WDNMD@0
 !!GROUPID=2!!\[V2\](.*)@$1-V2
 
