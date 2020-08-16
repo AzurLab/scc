@@ -1,7 +1,7 @@
 common:
   api_mode: false
   api_access_token: password
-  default_url: {import: snippets/url.txt}
+  default_url: ["!!import: snippets/url.txt"] # {import: snippets/url.txt} 
   enable_insert: true
   insert_url: []
   prepend_insert_url: true
