@@ -15,6 +15,7 @@ Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
 ;Apple,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Apple.listABP
 
 #去广告
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
 
