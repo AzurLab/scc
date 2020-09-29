@@ -8,9 +8,9 @@ DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Un
 
 #公司
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
-DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
+;DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
-PayPAL,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/PayPal.list
+Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/PayPal.list
 
 ;Apple,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/Apple/Apple.list
 
