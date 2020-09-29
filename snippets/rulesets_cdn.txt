@@ -2,9 +2,9 @@
 DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
 Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
 
-#本地
+#本地网络
 DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
-DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Unbreak.list
+DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
 
 #科技公司
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
@@ -50,10 +50,10 @@ HMT Unlock,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/HMT_Unlock.li
 ;HMT Unlock,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
 
 #代理
-Proxy,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/Global.list
+Proxy,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Global.list
 
 #直连
-DIRECT,https://cdn.jsdelivr.net/gh/ConnersHua/Profiles@master/Surge/Ruleset/China.list
+DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/China.list
 DIRECT,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
 DIRECT,[]GEOIP,CN
-Final,[]MATCH
+Match,[]MATCH
