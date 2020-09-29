@@ -13,7 +13,8 @@ Standby`select`!!GROUPID=3-
 
 Telegram`select`[]Proxy`(新|SG)
 Microsoft`select`[]DIRECT`[]Proxy
-;Google`select`[]Proxy`[]DIRECT
+Paypal`select`[]Proxy`[]DIRECT
+
 ;Apple`select`[]DIRECT`[]Proxy
 
 
