@@ -21,7 +21,7 @@ GlobalMedia`select`[]Proxy`[]DIRECT
 HMT Unlock`select`[]DIRECT`[]Proxy
 
 
-Final`select`[]Proxy`[]DIRECT
+Match`select`[]Proxy`[]DIRECT
 ABP`select`[]REJECT`[]DIRECT
 
 
