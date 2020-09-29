@@ -16,10 +16,12 @@ Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
 
 #去广告
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/merge.list
 
-ABP,https://anti-ad.net/surge.txt
+;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
+;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
+
+;ABP,https://anti-ad.net/surge.txt
 ;ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
 
 #anti-ad.net 拆分
