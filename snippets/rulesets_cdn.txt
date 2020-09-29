@@ -2,13 +2,13 @@
 DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
 Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
 
-#本地网络
+#本地网络&免翻墙
 DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
 DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
+DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
 #公司
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
-;DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
 Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/PayPal.list
 
