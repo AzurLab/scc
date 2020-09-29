@@ -1,3 +1,2 @@
-DOMAIN-SUFFIX,2020mustang.com
-# > 百度app下载
+# > 阻止百度app下载
 DOMAIN-SUFFIX,downapp.baidu.com
