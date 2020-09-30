@@ -16,7 +16,7 @@ Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Ex
 
 #去广告
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/merge.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp_merge.list
 
 ;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
 ;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
