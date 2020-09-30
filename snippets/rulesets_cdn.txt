@@ -4,7 +4,7 @@ Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/U
 Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
 # 自定义直连
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
 
 # Telegram
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
@@ -24,7 +24,7 @@ ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp_merge.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Privacy.list
 
 # 自定义代理
-Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
+Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Outbound.list
 
 # 公司
 
@@ -36,7 +36,8 @@ Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Ex
 # 影音娱乐
 ;NETFLIX,https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 Media,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/Streaming.list
-MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Overseas.list
+
+MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/MediaSE.list
 
 ;MediaSE,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingSE.list
 ;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
