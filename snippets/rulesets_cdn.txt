@@ -5,7 +5,7 @@ Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
 #本地网络&免翻墙
 DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
 DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
-DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
+;DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
 #公司
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
