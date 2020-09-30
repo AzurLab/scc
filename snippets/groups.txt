@@ -1,4 +1,4 @@
-Outbound`select`[]Tn`[]T0`[]Standby
+Outbound`select`[]Tn`[]T0`[]Standby`[]DIRECT
 T0`select`[]T1`[]T2`[]T3`[]T4
 Tn`fallback`[]T0`[]T2`[]T3`[]T4`http://www.gstatic.com/generate_204`300
 
