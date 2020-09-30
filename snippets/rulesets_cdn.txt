@@ -1,20 +1,15 @@
-#自定义规则
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
-Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
-
-#本地网络&免翻墙
+# 本地网络&直连
 Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
 Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
 Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
-#公司
+# 自定义直连
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
+
+# Telegram
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
-Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
-Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/PayPal.list
 
-;Apple,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/Apple/Apple.list
-
-#去广告
+# 广告拦截
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp_merge.list
 
@@ -28,10 +23,20 @@ ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp_merge.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Hijacking.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Privacy.list
 
-#影音娱乐
+# 自定义代理
+Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
+
+# 公司
+
+Microsoft,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Microsoft.list
+Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/PayPal.list
+
+;Apple,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/Apple/Apple.list
+
+# 影音娱乐
 ;NETFLIX,https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
 Media,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/Streaming.list
-MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/UnblockCN.list
+MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Overseas.list
 
 ;MediaSE,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingSE.list
 ;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
@@ -41,15 +46,16 @@ MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/UnblockCN.list
 ;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
 ;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
 
+# 中国流媒体
 ;MediaCN,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingCN.list
 
-#国外流量
+# 国外流量
 Outbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Global.list
 
-#国内流量
+# 国内流量
 Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/China.list
 Inbound,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
 Inbound,[]GEOIP,CN
 
-#漏网之鱼
+# 漏网之鱼
 Match,[]MATCH
