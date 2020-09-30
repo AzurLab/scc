@@ -1,11 +1,11 @@
 #自定义规则
-DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
-Proxy,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/direct.list
+Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/proxy.list
 
 #本地网络&免翻墙
-DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
-DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
-;DIRECT,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
+Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
 #公司
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
@@ -28,24 +28,28 @@ ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp_merge.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Hijacking.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Privacy.list
 
-#流媒体
+#影音娱乐
 ;NETFLIX,https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
-GlobalMedia,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/Streaming.list
-UnblockCN,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/UnblockCN.list
+Media,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/Streaming.list
+MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/UnblockCN.list
 
-;UnblockCN,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingSE.list
-;UnblockCN,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
-;UnblockCN,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
-;UnblockCN,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Letv.list
-;UnblockCN,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/MOO.list
-;UnblockCN,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
-;UnblockCN,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
+;MediaSE,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingSE.list
+;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
+;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
+;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Letv.list
+;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/MOO.list
+;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
+;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
 
-#代理
-Proxy,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Global.list
+;MediaCN,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingCN.list
 
-#直连
-DIRECT,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/China.list
-DIRECT,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
-DIRECT,[]GEOIP,CN
+#国外流量
+Outbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Global.list
+
+#国内流量
+Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/China.list
+Inbound,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
+Inbound,[]GEOIP,CN
+
+#漏网之鱼
 Match,[]MATCH
