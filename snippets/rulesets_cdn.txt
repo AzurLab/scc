@@ -11,12 +11,13 @@ Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
 
 # 广告拦截
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp_merge.list
+ABP,https://anti-ad.net/surge.txt
 
+;ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
 ;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
 ;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
-;ABP,https://anti-ad.net/surge.txt
-;ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
+
+
 
 ;ABP,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/AdRule.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Advertising.list
