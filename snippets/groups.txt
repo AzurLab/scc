@@ -6,7 +6,7 @@ T1`select`!!GROUPID=0
 ;!!HK`!!GROUPID=0!!^(?!.*HK).*$
 
 T2`select`!!GROUPID=1
-T3`select`!!GROUPID=2!!
+T3`select`!!GROUPID=2
 ;T4`select`!!GROUPID=2!!^(?!.*HK).*$
 
 Standby`select`!!GROUPID=3-
