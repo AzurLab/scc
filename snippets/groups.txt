@@ -1,13 +1,13 @@
 Outbound`select`[]Tn`[]T0`[]Standby`[]DIRECT
-T0`select`[]T1`[]T2`[]T3`[]T4
-Tn`fallback`[]T0`[]T2`[]T3`[]T4`http://www.gstatic.com/generate_204`300
+T0`select`[]T1`[]T2`[]T3`[]Standby
+Tn`fallback`[]T0`[]T1`[]T2`[]T3`http://www.gstatic.com/generate_204`300
 
 T1`select`!!GROUPID=0
 ;!!HK`!!GROUPID=0!!^(?!.*HK).*$
 
 T2`select`!!GROUPID=1
-T3`select`!!GROUPID=2!!HK
-T4`select`!!GROUPID=2!!^(?!.*HK).*$
+T3`select`!!GROUPID=2!!
+;T4`select`!!GROUPID=2!!^(?!.*HK).*$
 
 Standby`select`!!GROUPID=3-
 
