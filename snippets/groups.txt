@@ -9,7 +9,7 @@ T2`select`!!GROUPID=1
 T3`select`!!GROUPID=2!!HK`!!GROUPID=2!!^(?!.*HK).*$
 ;T4`select`!!GROUPID=2!!^(?!.*HK).*$
 
-Standby`select`!!GROUPID=3-
+Standby`select`!!GROUPID=2+
 
 Telegram`select`[]Outbound`(新|SG)
 Microsoft`select`[]Inbound`[]Outbound
