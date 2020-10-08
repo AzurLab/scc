@@ -1,16 +1,16 @@
-!!GROUPID=0-2!!香港@HK
-!!GROUPID=0-2!!台湾@TW
-!!GROUPID=0-2!!新加坡@SG
-!!GROUPID=0-2!!日本@JP
-!!GROUPID=0-2!!美国@US
-!!GROUPID=0-2!!英国@UK
-!!GROUPID=0-2!!韩国@KR
-!!GROUPID=0-2!!澳大利亚@AU
-!!GROUPID=0-2!!泰国@TH
-!!GROUPID=0-2!!意大利@IT
-!!GROUPID=0-2!!澳门@MO
-!!GROUPID=0-2!!俄罗斯@RU
-!!GROUPID=0-2!!印度@IN
+!!GROUPID=2+!!香港@HK
+!!GROUPID=2+!!台湾@TW
+!!GROUPID=2+!!新加坡@SG
+!!GROUPID=2+!!日本@JP
+!!GROUPID=2+!!美国@US
+!!GROUPID=2+!!英国@UK
+!!GROUPID=2+!!韩国@KR
+!!GROUPID=2+!!澳大利亚@AU
+!!GROUPID=2+!!泰国@TH
+!!GROUPID=2+!!意大利@IT
+!!GROUPID=2+!!澳门@MO
+!!GROUPID=2+!!俄罗斯@RU
+!!GROUPID=2+!!印度@IN
 
 
 
