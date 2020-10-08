@@ -7,6 +7,11 @@
 !!GROUPID=0-2!!韩国@KR
 !!GROUPID=0-2!!澳大利亚@AU
 !!GROUPID=0-2!!泰国@TH
+!!GROUPID=0-2!!意大利@IT
+!!GROUPID=0-2!!澳门@MO
+!!GROUPID=0-2!!俄罗斯@RU
+!!GROUPID=0-2!!印度@IN
+
 
 
 
