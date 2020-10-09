@@ -1,5 +1,5 @@
 Outbound`select`[]Tn`[]T0`[]Standby`[]DIRECT
-T0`select`[]T1`[]T2`[]T3`[]Standby
+T0`select`[]T1`[]T2`[]T3`[]Extra
 Tn`fallback`[]T0`[]T1`[]T2`[]T3`http://www.gstatic.com/generate_204`300
 
 T1`select`!!GROUPID=0
@@ -9,7 +9,9 @@ T2`select`!!GROUPID=1
 T3`select`!!GROUPID=2!!HK`!!GROUPID=2!!^(?!.*HK).*$
 ;T4`select`!!GROUPID=2!!^(?!.*HK).*$
 
-Standby`select`!!GROUPID=3-
+Standby`select`!!GROUPID=3
+
+Extra`select`!!GROUPID=4-
 
 Telegram`select`[]Outbound`(新|SG)
 Microsoft`select`[]Inbound`[]Outbound
