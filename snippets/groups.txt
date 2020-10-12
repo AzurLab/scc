@@ -13,7 +13,7 @@ Standby`select`!!GROUPID=3
 
 Extra`select`!!GROUPID=4-
 
-Telegram`select`[]Outbound`(新|SG)
+Telegram`select`[]Outbound`(新|SG)`[]DIRECT
 Microsoft`select`[]Inbound`[]Outbound
 Paypal`select`[]Outbound`[]Inbound
 
