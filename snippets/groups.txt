@@ -28,7 +28,7 @@ Media`select`[]Outbound`[]Inbound
 
 Match`select`[]Outbound`[]Inbound
 ABP`select`[]REJECT`[]Inbound`[]Outbound
-Inbound`select`[]DIRECT
+Inbound`select`[]DIRECT`[]Outbound
 
 
 ;🔰 节点选择`select`[]♻️ 自动选择`[]🎯 全球直连`.*
