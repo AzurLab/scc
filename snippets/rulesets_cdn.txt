@@ -1,7 +1,8 @@
 # 本地网络&直连
 Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
-Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Unbreak.list
+;Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
+;Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
 # 自定义直连
 Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
