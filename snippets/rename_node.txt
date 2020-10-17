@@ -23,7 +23,7 @@
 !!GROUPID=1!!([a-zA-Z]{2})-(.?[0-9]{2}).*@$1$2-DC
 !!GROUPID=1!!Trojan-(.*)@$1-Tr
 
-!!GROUPID=2!!Hong Kong Direct connection ([0-9]{2}) (电信|联通(?=移动))推荐@HK$1 $2
+!!GROUPID=2!!Hong Kong.*([0-9]{2}) (电信|联通).*@HK$1 $2
 
 
 
