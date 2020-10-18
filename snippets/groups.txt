@@ -2,7 +2,7 @@ Outbound`select`[]Tn`[]T1`[]T2`[]T3`[]Extra`[]Standby`[]DIRECT
 
 Tn`fallback`[]T1`[]T2`[]T3`[]Extra`http://www.gstatic.com/generate_204`300
 
-T1`select`!!GROUPID=1!!联通`!!GROUPID=1
+T1`select`!!GROUPID=1!!联通|AZ`!!GROUPID=1
 ;!!HK`!!GROUPID=1!!^(?!.*HK).*$
 
 T2`select`!!GROUPID=2
