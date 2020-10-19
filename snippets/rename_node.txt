@@ -11,10 +11,10 @@
 !!GROUPID=1-!!澳门@MO
 !!GROUPID=1-!!俄罗斯@RU
 !!GROUPID=1-!!印度@IN
-!!GROUPID=1-!!加拿大@CA 
-!!GROUPID=1-!!荷兰@NL 
-!!GROUPID=1-!!巴西@BR 
-!!GROUPID=1-!!德国@DE 
+!!GROUPID=1-!!加拿大@CA
+!!GROUPID=1-!!荷兰@NL
+!!GROUPID=1-!!巴西@BR
+!!GROUPID=1-!!德国@DE
 !!GROUPID=1-!!法国@FR
 
 
@@ -34,7 +34,8 @@
 
 
 ;SSRSUB
-.SSRSUB-(.*)-.*@$1
+!!GROUPID=5-6!!.SSRSUB-(.*)-.*@$1
+!!GROUPID=5-6!!^(..)(.*)$@$1 $2
 
 ;薯条D
 ;.*?(台湾|印度|香港|美国|新加坡|俄罗斯|韩国|南非|日本|巴西|阿根廷|回国|沪港|游戏).*?(IPLC|IEPL|商宽|寬頻|萨克|无法|加速|まつやまし|Fortaleza).*?D ?(\d\d?).*@$1 $2 D$3
