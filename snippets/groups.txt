@@ -1,6 +1,6 @@
 Outbound`select`[]Tn`[]T1`[]T2`[]T3`[]Extra`[]Standby`[]DIRECT
 
-Tn`fallback`[]T1`[]T2`[]T3`[]Extra`http://www.gstatic.com/generate_204`300
+Tn`fallback`[]T1`[]T2`[]T3`[]Extra`http://cp.cloudflare.com`300
 
 T1`select`!!GROUPID=1!!联通|AZ`!!GROUPID=1
 ;!!HK`!!GROUPID=1!!^(?!.*HK).*$
