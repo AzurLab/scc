@@ -10,6 +10,9 @@ Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
 # Telegram
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
 
+# 自定义代理（不被拦截）
+Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Outbound.list
+
 # 广告拦截
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
 ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
@@ -23,9 +26,6 @@ ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Advertising.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Hijacking.list
 ;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Privacy.list
-
-# 自定义代理
-Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Outbound.list
 
 # 公司
 
