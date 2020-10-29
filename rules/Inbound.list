@@ -2,8 +2,8 @@
 DOMAIN-SUFFIX,lt2333.com
 
 # > Xiaomi
-DOMAIN-SUFFIX,xiaomi
-DOMAIN-SUFFIX,miui
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,miui.com
 
 # > hCaptcha
 DOMAIN-SUFFIX,hcaptcha.com
