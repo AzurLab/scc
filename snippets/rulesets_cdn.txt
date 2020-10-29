@@ -4,17 +4,19 @@ Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Unbreak.list
 ;Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
 ;Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
-# 自定义直连
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
-
-# Telegram
+# Telegram (没有什么比吹水更重要)
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
 
-# 自定义代理（不被拦截）
+# 自定义广告拦截
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
+
+# 自定义直连 (免疫普通广告拦截)
+Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
+
+# 自定义代理 (免疫普通广告拦截)
 Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Outbound.list
 
 # 广告拦截
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
 ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
 
 ;ABP,https://anti-ad.net/surge.txt
