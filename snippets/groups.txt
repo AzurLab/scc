@@ -17,9 +17,9 @@ Standby`select`!!GROUPID=0
 
 Extra`select`!!GROUPID=4-
 
-Telegram`select`[]Outbound`(新|SG)`[]DIRECT
+Telegram`select`[]Outbound`[]DIRECT`SG`新
 Microsoft`select`[]Inbound`[]Outbound
-Paypal`select`[]Outbound`[]Inbound
+Paypal`select`[]Outbound`[]Inbound`US`美
 
 ;Apple`select`[]Inbound`[]Outbound
 
@@ -30,7 +30,7 @@ Media`select`[]Outbound`[]Inbound
 
 Match`select`[]Outbound`[]Inbound
 ABP`select`[]REJECT`[]Inbound`[]Outbound
-Inbound`select`[]DIRECT`[]Outbound
+Inbound`select`[]DIRECT`[]Outbound`回国
 
 
 ;🔰 节点选择`select`[]♻️ 自动选择`[]🎯 全球直连`.*
