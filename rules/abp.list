@@ -1,2 +1,6 @@
-# > 阻止百度app下载
+# > 阻止百度系app下载
 DOMAIN-SUFFIX,downapp.baidu.com
+
+# > 知乎APP
+DOMAIN-SUFFIX,pkg1.zhimg.com
+
