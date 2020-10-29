@@ -9,6 +9,7 @@ Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
 
 # 自定义广告拦截
 ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
+ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/fuckapp.list
 
 # 自定义直连 (免疫普通广告拦截)
 Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
