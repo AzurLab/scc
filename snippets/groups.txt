@@ -1,48 +1,30 @@
-Outbound`select`[]Tn`[]T1`[]T1.5`[]T2`[]T3`[]Extra`[]Standby`[]DIRECT
+Asgard`select`[]Gods`[]Odin`[]Frigga`[]Thor`[]Loki`[]Baldur`[]Heimdall`[]DIRECT
 
-Tn`fallback`[]T1`[]T2`[]T3`[]Extra`http://www.gstatic.com/generate_204`300
+Gods`fallback`[]Odin`[]Thor`[]Loki`[]Baldur`http://www.gstatic.com/generate_204`300
 
-T1`select`!!GROUPID=1!!AZ
+Odin`select`!!GROUPID=1!!AZ
 ;!!HK`!!GROUPID=1!!^(?!.*HK).*$
 
-T1.5`select`!!GROUPID=1!!^(?!.*AZ).*$
+Frigga`select`!!GROUPID=1!!^(?!.*AZ).*$
 
-T2`select`!!GROUPID=2
-T3`select`!!GROUPID=3
+Thor`select`!!GROUPID=2
+Loki`select`!!GROUPID=3
 
-;T3`select`!!GROUPID=2!!HK`!!GROUPID=2!!^(?!.*HK).*$
-;T4`select`!!GROUPID=2!!^(?!.*HK).*$
-
-Standby`select`!!GROUPID=0
+Heimdall`select`!!GROUPID=0
 
 Extra`select`!!GROUPID=4-
 
-Telegram`select`[]Outbound`[]DIRECT`SG`新
-Microsoft`select`[]Inbound`[]Outbound
-Paypal`select`[]Outbound`[]Inbound`US`美
+Telegram`select`[]Asgard`[]DIRECT`SG`新
+Microsoft`select`[]Midgard`[]Asgard
+Paypal`select`[]Asgard`[]Midgard`US`美
 
-;Apple`select`[]Inbound`[]Outbound
+;Apple`select`[]Midgard`[]Asgard
 
-MediaSE`select`[]Inbound`[]Outbound
+Bifrost`select`[]Midgard`[]Asgard
 
-Media`select`[]Outbound`[]Inbound
-;MediaCN`select`[]Inbound`[]Outbound
+Valhalla`select`[]Asgard`[]Midgard
+;MediaCN`select`[]Midgard`[]Asgard
 
-Match`select`[]Outbound`[]Inbound
-ABP`select`[]REJECT`[]Inbound`[]Outbound
-Inbound`select`[]DIRECT`[]Outbound`回国
-
-
-;🔰 节点选择`select`[]♻️ 自动选择`[]🎯 全球直连`.*
-;♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
-;🎥 NETFLIX`select`[]🔰 节点选择`[]♻️ 自动选择`[]🎯 全球直连`.*
-;⛔️ 广告拦截`select`[]🛑 全球拦截`[]🎯 全球直连`[]🔰 节点选择
-;🚫 运营劫持`select`[]🛑 全球拦截`[]🎯 全球直连`[]🔰 节点选择
-;🌍 国外媒体`select`[]🔰 节点选择`[]♻️ 自动选择`[]🎯 全球直连`.*
-;🌏 国内媒体`select`[]🎯 全球直连`(HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|hk|港|tw)`[]🔰 节点选择
-;Ⓜ️ 微软服务`select`[]🎯 全球直连`[]🔰 节点选择`.*
-;📲 电报信息`select`[]🔰 节点选择`[]🎯 全球直连`.*
-;🍎 苹果服务`select`[]🔰 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
-;🎯 全球直连`select`[]DIRECT
-;🛑 全球拦截`select`[]REJECT`[]DIRECT
-;🐟 漏网之鱼`select`[]🔰 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
+Niflheim`select`[]Asgard`[]Midgard
+Helheim`select`[]REJECT`[]Midgard`[]Asgard
+Midgard`select`[]DIRECT`[]Asgard`回国
