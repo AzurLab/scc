@@ -1,34 +1,34 @@
 # 本地网络&直连
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Unbreak.list
-;Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
-;Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
+Midgard,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Local.list
+Midgard,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Unbreak.list
+;Midgard,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Unbreak.list
+;Midgard,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/GoogleCN.list
 
 # Telegram (没有什么比吹水更重要)
 Telegram,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Telegram.list
 
 # 自定义广告拦截
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
-ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/fuckapp.list
+Helheim,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/abp.list
+Helheim,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/fuckapp.list
 
 # 自定义直连 (免疫普通广告拦截)
-Inbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
+Midgard,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Inbound.list
 
 # 自定义代理 (免疫普通广告拦截)
-Outbound,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Outbound.list
+Asgard,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/Outbound.list
 
-# 广告拦截
-ABP,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
+# 赫尔海姆
+Helheim,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
 
-;ABP,https://anti-ad.net/surge.txt
+;Helheim,https://anti-ad.net/surge.txt
 
-;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
-;ABP,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
+;Helheim,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/ad-wars.list
+;Helheim,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/neohosts.list
 
-;ABP,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/AdRule.list
-;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Advertising.list
-;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Hijacking.list
-;ABP,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Privacy.list
+;Helheim,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/AdRule.list
+;Helheim,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Advertising.list
+;Helheim,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Hijacking.list
+;Helheim,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Guard/Privacy.list
 
 # 公司
 
@@ -38,29 +38,29 @@ Paypal,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Ex
 ;Apple,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Extra/Apple/Apple.list
 
 # 影音娱乐
-;NETFLIX,https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
-Media,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/Streaming.list
+;Gladsheim,https://github.com/DivineEngine/Profiles/blob/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list
+Valhalla,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/Streaming.list
 
-MediaSE,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/MediaSE.list
+Bifrost,https://cdn.jsdelivr.net/gh/Dashboard2/scc@master/rules/MediaSE.list
 
-;MediaSE,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingSE.list
-;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
-;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
-;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Letv.list
-;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/MOO.list
-;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
-;MediaSE,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
+;Bifrost,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingSE.list
+;Bifrost,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Bilibili.list
+;Bifrost,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/iQiyi.list
+;Bifrost,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Letv.list
+;Bifrost,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/MOO.list
+;Bifrost,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
+;Bifrost,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Media/Youku.list
 
 # 中国流媒体
 ;MediaCN,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/StreamingMedia/StreamingCN.list
 
-# 国外流量
-Outbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Global.list
+# 阿斯加特
+Asgard,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/Global.list
 
-# 国内流量
-Inbound,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/China.list
-Inbound,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
-Inbound,[]GEOIP,CN
+# 在人间
+Midgard,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/China.list
+Midgard,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
+Midgard,[]GEOIP,CN
 
-# 漏网之鱼
-Match,[]MATCH
+# 啊，这里就是尼伯龙根吗
+Niflheim,[]MATCH
