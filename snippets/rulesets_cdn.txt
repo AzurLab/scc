@@ -62,5 +62,5 @@ Midgard,https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Surge/Ruleset/C
 Midgard,https://cdn.jsdelivr.net/gh/NobyDa/Script@master/Surge/Download.list
 Midgard,[]GEOIP,CN
 
-# 啊，这里就是尼伯龙根吗
+# 迷路之人
 Niflheim,[]MATCH
