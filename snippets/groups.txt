@@ -22,7 +22,7 @@ Paypal`select`[]Asgard`[]Midgard`US`美
 
 Bifrost`select`[]Midgard`[]Asgard
 
-WellofUrd`select`[]Asgard`[]Midgard
+Well of Urd`select`[]Asgard`[]Midgard
 ;MediaCN`select`[]Midgard`[]Asgard
 
 Niflheim`select`[]Asgard`[]Midgard
