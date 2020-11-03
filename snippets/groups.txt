@@ -10,7 +10,7 @@ Frigga`select`!!GROUPID=1!!^(?!.*AZ).*$
 Thor`select`!!GROUPID=2!!HK`!!GROUPID=2
 Loki`select`!!GROUPID=3!!HK`!!GROUPID=3
 
-Heimdall`select`!!GROUPID=0!!HK`!!GROUPID=0
+Heimdall`select`!!GROUPID=0!!HK`!!GROUPID=0!!香港`!!GROUPID=0
 
 Baldur`select`!!GROUPID=4-!!HK`!!GROUPID=4-
 
