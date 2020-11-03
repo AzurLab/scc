@@ -8,11 +8,11 @@ Odin`select`!!GROUPID=1!!AZ
 Frigga`select`!!GROUPID=1!!^(?!.*AZ).*$
 
 Thor`select`!!GROUPID=2!!HK`!!GROUPID=2
-Loki`select`!!GROUPID=3
+Loki`select`!!GROUPID=3!!HK`!!GROUPID=3
 
-Heimdall`select`!!GROUPID=0
+Heimdall`select`!!GROUPID=0!!HK`!!GROUPID=0
 
-Baldur`select`!!GROUPID=4-
+Baldur`select`!!GROUPID=4-!!HK`!!GROUPID=4-
 
 Telegram`select`[]Asgard`[]DIRECT`SG`新
 Microsoft`select`[]Midgard`[]Asgard
