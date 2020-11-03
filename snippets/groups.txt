@@ -7,7 +7,7 @@ Odin`select`!!GROUPID=1!!AZ
 
 Frigga`select`!!GROUPID=1!!^(?!.*AZ).*$
 
-Thor`select`!!GROUPID=2
+Thor`select`!!GROUPID=2!!HK`!!GROUPID=2
 Loki`select`!!GROUPID=3
 
 Heimdall`select`!!GROUPID=0
