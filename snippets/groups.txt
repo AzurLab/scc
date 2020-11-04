@@ -20,9 +20,9 @@ P`select`[]T`[]D`US`美
 
 ;A`select`[]D`[]T
 
-V`select`[]D`[]T
+V`select`[]T`[]D
 
-C`select`[]T`[]D
+C`select`[]D`[]T`TW
 ;MediaCN`select`[]D`[]T
 
 O`select`[]T`[]D
