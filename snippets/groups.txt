@@ -1,30 +1,30 @@
-Asgard`select`[]Valhalla`[]Odin`[]Frigga`[]Thor`[]Loki`[]Baldur`[]Heimdall`[]DIRECT
+T`select`[]TN`[]T1`[]T1.5`[]T2`[]T3`[]T4`[]T0`[]DIRECT
 
-Valhalla`fallback`[]Odin`[]Thor`[]Loki`[]Baldur`http://www.gstatic.com/generate_204`300
+TN`fallback`[]T1`[]T2`[]T3`[]T4`http://www.gstatic.com/generate_204`300
 
-Odin`select`!!GROUPID=1!!AZ
+T1`select`!!GROUPID=1!!AZ
 ;!!HK`!!GROUPID=1!!^(?!.*HK).*$
 
-Frigga`select`!!GROUPID=1!!^(?!.*AZ).*$
+T1.5`select`!!GROUPID=1!!^(?!.*AZ).*$
 
-Thor`select`!!GROUPID=2!!HK`!!GROUPID=2
-Loki`select`!!GROUPID=3!!HK`!!GROUPID=3
+T2`select`!!GROUPID=2!!HK`!!GROUPID=2
+T3`select`!!GROUPID=3!!HK`!!GROUPID=3
 
-Heimdall`select`!!GROUPID=0!!HK`!!GROUPID=0!!香港`!!GROUPID=0
+T0`select`!!GROUPID=0!!HK`!!GROUPID=0!!香港`!!GROUPID=0
 
-Baldur`select`!!GROUPID=4-!!HK`!!GROUPID=4-
+T4`select`!!GROUPID=4-!!HK`!!GROUPID=4-
 
-Telegram`select`[]Asgard`[]DIRECT`SG`新
-Microsoft`select`[]Midgard`[]Asgard
-Paypal`select`[]Asgard`[]Midgard`US`美
+G`select`[]T`[]DIRECT`SG`新
+M`select`[]D`[]T
+P`select`[]T`[]D`US`美
 
-;Apple`select`[]Midgard`[]Asgard
+;A`select`[]D`[]T
 
-Bifrost`select`[]Midgard`[]Asgard
+V`select`[]D`[]T
 
-Well of Urd`select`[]Asgard`[]Midgard
-;MediaCN`select`[]Midgard`[]Asgard
+C`select`[]T`[]D
+;MediaCN`select`[]D`[]T
 
-Niflheim`select`[]Asgard`[]Midgard
-Helheim`select`[]REJECT`[]Midgard`[]Asgard
-Midgard`select`[]DIRECT`[]Asgard`回国
+O`select`[]T`[]D
+B`select`[]REJECT`[]D`[]T
+D`select`[]DIRECT`[]T`回国
